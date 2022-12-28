@@ -1,7 +1,7 @@
 using Microsoft.EntityFrameworkCore;
-using ShopOnline.Api.Data;
-using ShopOnline.Api.Repositories;
-using ShopOnline.Api.Repositories.Contracts;
+using OnlineStore.Api.Data;
+using OnlineStore.Api.Repositories;
+using OnlineStore.Api.Repositories.Contracts;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -12,9 +12,9 @@ builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
-builder.Services.AddDbContextPool<ShopOnlineDbContext>(options =>
+builder.Services.AddDbContextPool<OnlineStoreDbContext>(options =>
 {
-    options.UseSqlServer(builder.Configuration.GetConnectionString("ShopOnlineDb"));
+    options.UseSqlServer(builder.Configuration.GetConnectionString("OnlineStoreDb"));
 });
 
 builder.Services.AddScoped<IProductRepository, ProductRepository>();

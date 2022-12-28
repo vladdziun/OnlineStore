@@ -3,14 +3,14 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
-using ShopOnline.Api.Data;
+using OnlineStore.Api.Data;
 
 #nullable disable
 
-namespace ShopOnline.Api.Migrations
+namespace OnlineStore.Api.Migrations
 {
-    [DbContext(typeof(ShopOnlineDbContext))]
-    partial class ShopOnlineDbContextModelSnapshot : ModelSnapshot
+    [DbContext(typeof(OnlineStoreDbContext))]
+    partial class OnlineStoreDbContextModelSnapshot : ModelSnapshot
     {
         protected override void BuildModel(ModelBuilder modelBuilder)
         {
@@ -21,7 +21,7 @@ namespace ShopOnline.Api.Migrations
 
             SqlServerModelBuilderExtensions.UseIdentityColumns(modelBuilder);
 
-            modelBuilder.Entity("ShopOnline.Api.Entities.Cart", b =>
+            modelBuilder.Entity("OnlineStore.Api.Entities.Cart", b =>
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
@@ -49,7 +49,7 @@ namespace ShopOnline.Api.Migrations
                         });
                 });
 
-            modelBuilder.Entity("ShopOnline.Api.Entities.CartItem", b =>
+            modelBuilder.Entity("OnlineStore.Api.Entities.CartItem", b =>
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
@@ -71,7 +71,7 @@ namespace ShopOnline.Api.Migrations
                     b.ToTable("CartItems");
                 });
 
-            modelBuilder.Entity("ShopOnline.Api.Entities.Product", b =>
+            modelBuilder.Entity("OnlineStore.Api.Entities.Product", b =>
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
@@ -337,7 +337,7 @@ namespace ShopOnline.Api.Migrations
                         });
                 });
 
-            modelBuilder.Entity("ShopOnline.Api.Entities.ProductCategory", b =>
+            modelBuilder.Entity("OnlineStore.Api.Entities.ProductCategory", b =>
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
@@ -376,7 +376,7 @@ namespace ShopOnline.Api.Migrations
                         });
                 });
 
-            modelBuilder.Entity("ShopOnline.Api.Entities.User", b =>
+            modelBuilder.Entity("OnlineStore.Api.Entities.User", b =>
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()

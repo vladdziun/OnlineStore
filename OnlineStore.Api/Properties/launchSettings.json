@@ -9,7 +9,7 @@
     }
   },
   "profiles": {
-    "ShopOnline.Api": {
+    "OnlineStore.Api": {
       "commandName": "Project",
       "dotnetRunMessages": true,
       "launchBrowser": true,

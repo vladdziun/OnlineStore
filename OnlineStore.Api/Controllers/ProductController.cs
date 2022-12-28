@@ -1,11 +1,11 @@
 ﻿using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
-using ShopOnline.Api.Repositories.Contracts;
-using ShopOnline.Models.Dtos;
-using ShopOnline.Api.Extensions;
+using OnlineStore.Api.Repositories.Contracts;
+using OnlineStore.Models.Dtos;
+using OnlineStore.Api.Extensions;
 
 
-namespace ShopOnline.Api.Controllers
+namespace OnlineStore.Api.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]

@@ -1,6 +1,6 @@
-﻿using ShopOnline.Api.Entities;
+﻿using OnlineStore.Api.Entities;
 
-namespace ShopOnline.Api.Repositories.Contracts
+namespace OnlineStore.Api.Repositories.Contracts
 {
     public interface IProductRepository
     {

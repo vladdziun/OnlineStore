@@ -1,11 +1,11 @@
 ﻿using Microsoft.EntityFrameworkCore;
-using ShopOnline.Api.Entities;
+using OnlineStore.Api.Entities;
 
-namespace ShopOnline.Api.Data
+namespace OnlineStore.Api.Data
 {
-    public class ShopOnlineDbContext: DbContext
+    public class OnlineStoreDbContext: DbContext
     {
-        public ShopOnlineDbContext(DbContextOptions<ShopOnlineDbContext> options) : base(options) 
+        public OnlineStoreDbContext(DbContextOptions<OnlineStoreDbContext> options) : base(options) 
         {
             
         }

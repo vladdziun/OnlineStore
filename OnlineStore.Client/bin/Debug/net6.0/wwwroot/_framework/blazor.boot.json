@@ -2,7 +2,7 @@
   "cacheBootResources": true,
   "config": [ ],
   "debugBuild": true,
-  "entryAssembly": "ShopOnline.Client",
+  "entryAssembly": "OnlineStore.Client",
   "icuDataMode": 0,
   "linkerEnabled": false,
   "resources": {
@@ -196,13 +196,13 @@
       "mscorlib.dll": "sha256-cx\/3nJhFns3tZhQNQOyiRyKJESKxOjLVufzWnri6KSA=",
       "netstandard.dll": "sha256-yWufW5W4SSfjocBcWTEDqnFwTd\/VYtLMc2Y9mPmlggc=",
       "System.Private.CoreLib.dll": "sha256-H009wzPwRoDZlwvpN4KLCsUwN7Y1AmjKB3PIEHA7ObQ=",
-      "ShopOnline.Client.dll": "sha256-gVrVubGxPdttq1uVu+d7LJrlGgHmn0eM7bU2IJCt1r0="
+      "OnlineStore.Client.dll": "sha256-1K3Nm4eFwxkrHz9WS+puNm\/pCii8gJVhLwbF8O5LIRI="
     },
     "extensions": null,
     "lazyAssembly": null,
     "libraryInitializers": null,
     "pdb": {
-      "ShopOnline.Client.pdb": "sha256-BavPgLGEu5OtKlc7mSNnnyCRo+McwxEif7+6+7OjkIY="
+      "OnlineStore.Client.pdb": "sha256-\/Z59HrdiVzF9y7k58g53zvCLJodP0YSiSdhibVVM8Pk="
     },
     "runtime": {
       "dotnet.6.0.11.godfthwrgd.js": "sha256-F30V+6jU3jwJYFZoLuwMAqzTiOXu6q7zGgOdjYBofDI=",
