@@ -1,0 +1,6 @@
+F:\student\c#\ShopOnline\ShopOnline.Client\obj\Debug\net6.0\OnlineStore.Client.csproj.AssemblyReference.cache
+F:\student\c#\ShopOnline\ShopOnline.Client\obj\Debug\net6.0\OnlineStore.Client.GeneratedMSBuildEditorConfig.editorconfig
+F:\student\c#\ShopOnline\ShopOnline.Client\obj\Debug\net6.0\OnlineStore.Client.AssemblyInfoInputs.cache
+F:\student\c#\ShopOnline\ShopOnline.Client\obj\Debug\net6.0\OnlineStore.Client.AssemblyInfo.cs
+F:\student\c#\ShopOnline\ShopOnline.Client\obj\Debug\net6.0\OnlineStore.Client.csproj.CoreCompileInputs.cache
+F:\student\c#\ShopOnline\ShopOnline.Client\obj\Debug\net6.0\OnlineStore.Client.MvcApplicationPartsAssemblyInfo.cache
