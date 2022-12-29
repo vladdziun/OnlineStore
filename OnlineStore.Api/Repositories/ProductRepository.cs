@@ -23,7 +23,7 @@ namespace OnlineStore.Api.Repositories
 
         public async Task<ProductCategory> GetCategory(int id)
         {
-            var category = await _onlineStoreDbContext.ProductCategories.SingleOrDefaultAsync(c => c.Id == id);
+            var category = await _onlineStoreDbContext.ProductCategories.FirstOrDefaultAsync(c => c.Id == id);
 
             return category;
         }
@@ -31,7 +31,7 @@ namespace OnlineStore.Api.Repositories
         public async Task<Product> GetProduct(int id)
         {
             var product = await _onlineStoreDbContext.Products
-                                .SingleOrDefaultAsync(p => p.Id == id);
+                                .FirstOrDefaultAsync(p => p.Id == id);
             return product;
         }
 
@@ -42,10 +42,33 @@ namespace OnlineStore.Api.Repositories
             return products;
         }
 
+
+        public async Task<Product> CreateProduct(ProductDto productDto)
+        {
+            // needs to be migrated to a service!
+            if (productDto != null)
+            {
+                var product = new Product()
+                {
+                    Name = productDto.Name,
+                    Description = productDto.Description,
+                    ImageURL = productDto.ImageURL,
+                    Price = productDto.Price,
+                    Qty = productDto.Qty,
+                    CategoryId = productDto.CategoryId 
+                };
+                await _onlineStoreDbContext.Products.AddAsync(product);
+                await _onlineStoreDbContext.SaveChangesAsync();
+                return product;
+            }
+
+            throw new Exception("Error creating product");
+        }
+
         public async Task<Product> UpdateProduct(ProductDto product)
         {
             var productToUpdate = await _onlineStoreDbContext.Products
-                    .SingleOrDefaultAsync(p => p.Id == product.Id);
+                    .FirstOrDefaultAsync(p => p.Id == product.Id);
 
             // needs to be migrated to a service!
             if (productToUpdate != null) 
@@ -59,6 +82,15 @@ namespace OnlineStore.Api.Repositories
             await _onlineStoreDbContext.SaveChangesAsync();
 
             return productToUpdate;
+        }
+
+        public async Task DeleteProduct(int id)
+        {
+            var product = await _onlineStoreDbContext.Products
+                    .FirstOrDefaultAsync(p => p.Id == id);
+
+            _onlineStoreDbContext.Remove(product);
+            await _onlineStoreDbContext.SaveChangesAsync();
         }
 
         public async Task<IEnumerable<Product>> GetItemsByCategory(int id)

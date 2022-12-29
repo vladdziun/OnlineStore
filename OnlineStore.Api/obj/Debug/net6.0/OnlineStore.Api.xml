@@ -15,11 +15,23 @@
             </summary>
             <param name="id">Id</param>
         </member>
+        <member name="M:OnlineStore.Api.Controllers.ProductController.CreateProduct(OnlineStore.Models.Dtos.ProductDto)">
+            <summary>
+            Creates product by id.
+            </summary>
+            <param name="productDto">ProductDto</param>
+        </member>
         <member name="M:OnlineStore.Api.Controllers.ProductController.UpdateProductById(OnlineStore.Models.Dtos.ProductDto)">
             <summary>
             Updates product by id.
             </summary>
-            <param name="productDto">ProductDto</param>
+            <param name="productUpdateDto">ProductDto</param>
+        </member>
+        <member name="M:OnlineStore.Api.Controllers.ProductController.DeleteProduct(System.Int32)">
+            <summary>
+            Deletes product by id.
+            </summary>
+            <param name="id">Id</param>
         </member>
         <member name="T:OnlineStore.Api.Migrations.Init">
             <inheritdoc />

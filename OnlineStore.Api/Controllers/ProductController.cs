@@ -41,7 +41,7 @@ namespace OnlineStore.Api.Controllers
             catch (Exception)
             {
                 return StatusCode(StatusCodes.Status500InternalServerError,
-                    "Error retrieving data from the DB");
+                    "Error retrieving data from the database");
                 throw;
             }
         }
@@ -77,9 +77,38 @@ namespace OnlineStore.Api.Controllers
         }
 
         /// <summary>
-        /// Updates product by id.
+        /// Creates product.
         /// </summary>
         /// <param name="productDto">ProductDto</param>
+        [HttpPut]
+        public async Task<ActionResult<ProductDto>> CreateProduct(ProductDto productDto)
+        {
+            try
+            {
+                var createdProduct = await _productRepository.CreateProduct(productDto);
+
+                if (createdProduct == null)
+                {
+                    return BadRequest();
+                }
+                else
+                {
+                    var createdProductDto = createdProduct.ConvertToDto();
+
+                    return Ok(createdProductDto);
+                }
+            }
+            catch (Exception)
+            {
+                return StatusCode(StatusCodes.Status500InternalServerError,
+                                "Error updating data in the database");
+            }
+        }
+
+        /// <summary>
+        /// Updates product by id.
+        /// </summary>
+        /// <param name="productUpdateDto">ProductDto</param>
         [HttpPost]
         public async Task<ActionResult<ProductDto>> UpdateProductById(ProductDto productUpdateDto)
         {
@@ -93,7 +122,6 @@ namespace OnlineStore.Api.Controllers
                 }
                 else
                 {
-
                     var productDto = product.ConvertToDto();
 
                     return Ok(productDto);
@@ -102,7 +130,28 @@ namespace OnlineStore.Api.Controllers
             catch (Exception)
             {
                 return StatusCode(StatusCodes.Status500InternalServerError,
-                                "Error retrieving data from the database");
+                                "Error updating data in the database");
+            }
+        }
+
+
+        /// <summary>
+        /// Deletes product by id.
+        /// </summary>
+        /// <param name="id">Id</param>
+        [HttpDelete("{id}")]
+        public async Task<ActionResult<ProductDto>> DeleteProduct(int id)
+        {
+            try
+            {
+                await _productRepository.DeleteProduct(id);
+
+                return Ok();
+            }
+            catch (Exception)
+            {
+                return StatusCode(StatusCodes.Status500InternalServerError,
+                                "Error removing data from the database");
             }
         }
     }
