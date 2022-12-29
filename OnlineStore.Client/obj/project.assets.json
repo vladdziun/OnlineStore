@@ -498,6 +498,16 @@
         "build": {
           "buildTransitive/netcoreapp3.1/_._": {}
         }
+      },
+      "OnlineStore.Models/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/OnlineStore.Models.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/OnlineStore.Models.dll": {}
+        }
       }
     },
     "net6.0/browser-wasm": {
@@ -990,6 +1000,16 @@
         },
         "build": {
           "buildTransitive/netcoreapp3.1/_._": {}
+        }
+      },
+      "OnlineStore.Models/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/OnlineStore.Models.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/OnlineStore.Models.dll": {}
         }
       }
     }
@@ -1753,12 +1773,18 @@
         "system.text.json.nuspec",
         "useSharedDesignerContext.txt"
       ]
+    },
+    "OnlineStore.Models/1.0.0": {
+      "type": "project",
+      "path": "../OnlineStore.Models/OnlineStore.Models.csproj",
+      "msbuildProject": "../OnlineStore.Models/OnlineStore.Models.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net6.0": [
       "Microsoft.AspNetCore.Components.WebAssembly >= 6.0.10",
-      "Microsoft.AspNetCore.Components.WebAssembly.DevServer >= 6.0.10"
+      "Microsoft.AspNetCore.Components.WebAssembly.DevServer >= 6.0.10",
+      "OnlineStore.Models >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -1767,11 +1793,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "F:\\student\\c#\\ShopOnline\\OnlineStore.Client\\OnlineStore.Client.csproj",
+      "projectUniqueName": "F:\\student\\c#\\OnlineStore\\OnlineStore.Client\\OnlineStore.Client.csproj",
       "projectName": "OnlineStore.Client",
-      "projectPath": "F:\\student\\c#\\ShopOnline\\OnlineStore.Client\\OnlineStore.Client.csproj",
+      "projectPath": "F:\\student\\c#\\OnlineStore\\OnlineStore.Client\\OnlineStore.Client.csproj",
       "packagesPath": "C:\\Users\\Vlad-PC\\.nuget\\packages\\",
-      "outputPath": "F:\\student\\c#\\ShopOnline\\OnlineStore.Client\\obj\\",
+      "outputPath": "F:\\student\\c#\\OnlineStore\\OnlineStore.Client\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Vlad-PC\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -1787,7 +1813,11 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "F:\\student\\c#\\OnlineStore\\OnlineStore.Models\\OnlineStore.Models.csproj": {
+              "projectPath": "F:\\student\\c#\\OnlineStore\\OnlineStore.Models\\OnlineStore.Models.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

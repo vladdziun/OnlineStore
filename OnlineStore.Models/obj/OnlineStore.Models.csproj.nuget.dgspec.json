@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "F:\\student\\c#\\ShopOnline\\OnlineStore.Models\\OnlineStore.Models.csproj": {}
+    "F:\\student\\c#\\OnlineStore\\OnlineStore.Models\\OnlineStore.Models.csproj": {}
   },
   "projects": {
-    "F:\\student\\c#\\ShopOnline\\OnlineStore.Models\\OnlineStore.Models.csproj": {
+    "F:\\student\\c#\\OnlineStore\\OnlineStore.Models\\OnlineStore.Models.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "F:\\student\\c#\\ShopOnline\\OnlineStore.Models\\OnlineStore.Models.csproj",
+        "projectUniqueName": "F:\\student\\c#\\OnlineStore\\OnlineStore.Models\\OnlineStore.Models.csproj",
         "projectName": "OnlineStore.Models",
-        "projectPath": "F:\\student\\c#\\ShopOnline\\OnlineStore.Models\\OnlineStore.Models.csproj",
+        "projectPath": "F:\\student\\c#\\OnlineStore\\OnlineStore.Models\\OnlineStore.Models.csproj",
         "packagesPath": "C:\\Users\\Vlad-PC\\.nuget\\packages\\",
-        "outputPath": "F:\\student\\c#\\ShopOnline\\OnlineStore.Models\\obj\\",
+        "outputPath": "F:\\student\\c#\\OnlineStore\\OnlineStore.Models\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Vlad-PC\\AppData\\Roaming\\NuGet\\NuGet.Config",

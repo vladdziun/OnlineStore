@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "F:\\student\\c#\\ShopOnline\\OnlineStore.Api\\OnlineStore.Api.csproj": {}
+    "F:\\student\\c#\\OnlineStore\\OnlineStore.Api\\OnlineStore.Api.csproj": {}
   },
   "projects": {
-    "F:\\student\\c#\\ShopOnline\\OnlineStore.Api\\OnlineStore.Api.csproj": {
+    "F:\\student\\c#\\OnlineStore\\OnlineStore.Api\\OnlineStore.Api.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "F:\\student\\c#\\ShopOnline\\OnlineStore.Api\\OnlineStore.Api.csproj",
+        "projectUniqueName": "F:\\student\\c#\\OnlineStore\\OnlineStore.Api\\OnlineStore.Api.csproj",
         "projectName": "OnlineStore.Api",
-        "projectPath": "F:\\student\\c#\\ShopOnline\\OnlineStore.Api\\OnlineStore.Api.csproj",
+        "projectPath": "F:\\student\\c#\\OnlineStore\\OnlineStore.Api\\OnlineStore.Api.csproj",
         "packagesPath": "C:\\Users\\Vlad-PC\\.nuget\\packages\\",
-        "outputPath": "F:\\student\\c#\\ShopOnline\\OnlineStore.Api\\obj\\",
+        "outputPath": "F:\\student\\c#\\OnlineStore\\OnlineStore.Api\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Vlad-PC\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -28,8 +28,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "F:\\student\\c#\\ShopOnline\\OnlineStore.Models\\OnlineStore.Models.csproj": {
-                "projectPath": "F:\\student\\c#\\ShopOnline\\OnlineStore.Models\\OnlineStore.Models.csproj"
+              "F:\\student\\c#\\OnlineStore\\OnlineStore.Models\\OnlineStore.Models.csproj": {
+                "projectPath": "F:\\student\\c#\\OnlineStore\\OnlineStore.Models\\OnlineStore.Models.csproj"
               }
             }
           }
@@ -44,6 +44,10 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "dependencies": {
+            "Microsoft.AspNetCore.Mvc.Versioning.ApiExplorer": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
               "version": "[7.0.1, )"
@@ -86,14 +90,14 @@
         }
       }
     },
-    "F:\\student\\c#\\ShopOnline\\OnlineStore.Models\\OnlineStore.Models.csproj": {
+    "F:\\student\\c#\\OnlineStore\\OnlineStore.Models\\OnlineStore.Models.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "F:\\student\\c#\\ShopOnline\\OnlineStore.Models\\OnlineStore.Models.csproj",
+        "projectUniqueName": "F:\\student\\c#\\OnlineStore\\OnlineStore.Models\\OnlineStore.Models.csproj",
         "projectName": "OnlineStore.Models",
-        "projectPath": "F:\\student\\c#\\ShopOnline\\OnlineStore.Models\\OnlineStore.Models.csproj",
+        "projectPath": "F:\\student\\c#\\OnlineStore\\OnlineStore.Models\\OnlineStore.Models.csproj",
         "packagesPath": "C:\\Users\\Vlad-PC\\.nuget\\packages\\",
-        "outputPath": "F:\\student\\c#\\ShopOnline\\OnlineStore.Models\\obj\\",
+        "outputPath": "F:\\student\\c#\\OnlineStore\\OnlineStore.Models\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Vlad-PC\\AppData\\Roaming\\NuGet\\NuGet.Config",

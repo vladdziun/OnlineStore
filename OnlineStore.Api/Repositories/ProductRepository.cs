@@ -2,47 +2,63 @@
 using OnlineStore.Api.Data;
 using OnlineStore.Api.Entities;
 using OnlineStore.Api.Repositories.Contracts;
+using OnlineStore.Models.Dtos;
 
 namespace OnlineStore.Api.Repositories
 {
     public class ProductRepository: IProductRepository
     {
-        private readonly OnlineStoreDbContext _OnlineStoreDbContext;
+        private readonly OnlineStoreDbContext _onlineStoreDbContext;
 
         public ProductRepository(OnlineStoreDbContext OnlineStoreDbContext)
         {
-            _OnlineStoreDbContext = OnlineStoreDbContext;
+            _onlineStoreDbContext = OnlineStoreDbContext;
         }
         public async Task<IEnumerable<ProductCategory>> GetCategories()
         {
-            var categories = await _OnlineStoreDbContext.ProductCategories.ToListAsync();
+            var categories = await _onlineStoreDbContext.ProductCategories.ToListAsync();
 
             return categories;
         }
 
         public async Task<ProductCategory> GetCategory(int id)
         {
-            var category = await _OnlineStoreDbContext.ProductCategories.SingleOrDefaultAsync(c => c.Id == id);
+            var category = await _onlineStoreDbContext.ProductCategories.SingleOrDefaultAsync(c => c.Id == id);
 
             return category;
         }
 
-        public async Task<Product> GetItem(int id)
+        public async Task<Product> GetProduct(int id)
         {
-            //var product = await _OnlineStoreDbContext.Products
-            //                    .Include(p => p.ProductCategory)
-            //                    .SingleOrDefaultAsync(p => p.Id == id);
-            //return product;
-            throw new NotImplementedException();
-
+            var product = await _onlineStoreDbContext.Products
+                                .SingleOrDefaultAsync(p => p.Id == id);
+            return product;
         }
 
-        public async Task<IEnumerable<Product>> GetItems()
+        public async Task<IEnumerable<Product>> GetProducts()
         {
-            var products = await _OnlineStoreDbContext.Products.ToListAsync();
+            var products = await _onlineStoreDbContext.Products.ToListAsync();
 
             return products;
+        }
 
+        public async Task<Product> UpdateProduct(ProductDto product)
+        {
+            var productToUpdate = await _onlineStoreDbContext.Products
+                    .SingleOrDefaultAsync(p => p.Id == product.Id);
+
+            // needs to be migrated to a service!
+            if (productToUpdate != null) 
+            {
+                productToUpdate.Name = product.Name;
+                productToUpdate.Description = product.Description;
+                productToUpdate.ImageURL  = product.ImageURL;
+                productToUpdate.Price = product.Price;
+                productToUpdate.Qty = product.Qty;
+            }
+            await _onlineStoreDbContext.SaveChangesAsync();
+
+            return productToUpdate;
         }
 
         public async Task<IEnumerable<Product>> GetItemsByCategory(int id)

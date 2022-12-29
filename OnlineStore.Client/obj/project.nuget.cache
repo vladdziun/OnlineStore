@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "XYG8KnmdbqXxQaqChoUd2p3Qbbn2ZjxDbmPdR9DypVwxiPIAypNb6RZmvvenxkKFEcy4p/xPvflisvn5i0oHcQ==",
+  "dgSpecHash": "wPs+FUJYJiz/c1acLOxrs9wy+U449HG1jQjFouyCZQ0LOKBKxfQmr2ltVte9Zz7xvSD5R9WfExJpltdL9w/Aww==",
   "success": true,
-  "projectFilePath": "F:\\student\\c#\\ShopOnline\\OnlineStore.Client\\OnlineStore.Client.csproj",
+  "projectFilePath": "F:\\student\\c#\\OnlineStore\\OnlineStore.Client\\OnlineStore.Client.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Vlad-PC\\.nuget\\packages\\microsoft.aspnetcore.authorization\\6.0.10\\microsoft.aspnetcore.authorization.6.0.10.nupkg.sha512",
     "C:\\Users\\Vlad-PC\\.nuget\\packages\\microsoft.aspnetcore.components\\6.0.10\\microsoft.aspnetcore.components.6.0.10.nupkg.sha512",

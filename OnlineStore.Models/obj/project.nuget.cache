@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "AQwUeB6OrnlGuDxelC0m1/veY9SvBWuUHL6p3j3GGNdXdzGQBZJT/1KtmgXR/HU8MBWCovb8XAlk/cfkFY/srw==",
+  "dgSpecHash": "ZwaVUmM/DLiiH9BRd9aJePcCPXwfNT4qHeso20FeqTgSHvDKWWVFxAd4kIUlNqdXrtqFM1qPAr3Km+HZyiOQjA==",
   "success": true,
-  "projectFilePath": "F:\\student\\c#\\ShopOnline\\OnlineStore.Models\\OnlineStore.Models.csproj",
+  "projectFilePath": "F:\\student\\c#\\OnlineStore\\OnlineStore.Models\\OnlineStore.Models.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

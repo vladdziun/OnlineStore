@@ -9,41 +9,45 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = browser
 build_property.RootNamespace = OnlineStore.Client
 build_property.RootNamespace = OnlineStore.Client
-build_property.ProjectDir = F:\student\c#\ShopOnline\OnlineStore.Client\
+build_property.ProjectDir = F:\student\c#\OnlineStore\OnlineStore.Client\
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = F:\student\c#\ShopOnline\OnlineStore.Client
+build_property.MSBuildProjectDirectory = F:\student\c#\OnlineStore\OnlineStore.Client
 build_property._RazorSourceGeneratorDebug = 
 
-[F:/student/c\#/ShopOnline/OnlineStore.Client/App.razor]
+[F:/student/c\#/OnlineStore/OnlineStore.Client/App.razor]
 build_metadata.AdditionalFiles.TargetPath = QXBwLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[F:/student/c\#/ShopOnline/OnlineStore.Client/Pages/Counter.razor]
+[F:/student/c\#/OnlineStore/OnlineStore.Client/Pages/Counter.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ291bnRlci5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[F:/student/c\#/ShopOnline/OnlineStore.Client/Pages/FetchData.razor]
+[F:/student/c\#/OnlineStore/OnlineStore.Client/Pages/DisplayProducts.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRGlzcGxheVByb2R1Y3RzLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/student/c\#/OnlineStore/OnlineStore.Client/Pages/FetchData.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRmV0Y2hEYXRhLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[F:/student/c\#/ShopOnline/OnlineStore.Client/Pages/Index.razor]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXgucmF6b3I=
+[F:/student/c\#/OnlineStore/OnlineStore.Client/Pages/Products.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJvZHVjdHMucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[F:/student/c\#/ShopOnline/OnlineStore.Client/Shared/SurveyPrompt.razor]
+[F:/student/c\#/OnlineStore/OnlineStore.Client/Shared/SurveyPrompt.razor]
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXFN1cnZleVByb21wdC5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[F:/student/c\#/ShopOnline/OnlineStore.Client/_Imports.razor]
+[F:/student/c\#/OnlineStore/OnlineStore.Client/_Imports.razor]
 build_metadata.AdditionalFiles.TargetPath = X0ltcG9ydHMucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[F:/student/c\#/ShopOnline/OnlineStore.Client/Shared/MainLayout.razor]
+[F:/student/c\#/OnlineStore/OnlineStore.Client/Shared/MainLayout.razor]
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE1haW5MYXlvdXQucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = b-kmivdv1wxl
 
-[F:/student/c\#/ShopOnline/OnlineStore.Client/Shared/NavMenu.razor]
+[F:/student/c\#/OnlineStore/OnlineStore.Client/Shared/NavMenu.razor]
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE5hdk1lbnUucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = b-4d356sdeub

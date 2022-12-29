@@ -196,13 +196,15 @@
       "mscorlib.dll": "sha256-cx\/3nJhFns3tZhQNQOyiRyKJESKxOjLVufzWnri6KSA=",
       "netstandard.dll": "sha256-yWufW5W4SSfjocBcWTEDqnFwTd\/VYtLMc2Y9mPmlggc=",
       "System.Private.CoreLib.dll": "sha256-H009wzPwRoDZlwvpN4KLCsUwN7Y1AmjKB3PIEHA7ObQ=",
-      "OnlineStore.Client.dll": "sha256-1K3Nm4eFwxkrHz9WS+puNm\/pCii8gJVhLwbF8O5LIRI="
+      "OnlineStore.Models.dll": "sha256-GFQN5REzOudyiqW48t4752yPcDrZgAieSM0gW\/WY9w4=",
+      "OnlineStore.Client.dll": "sha256-p1vsECS3WbItEagc11Q0hu6YRTUmCJPLJ6K2rLZtpwI="
     },
     "extensions": null,
     "lazyAssembly": null,
     "libraryInitializers": null,
     "pdb": {
-      "OnlineStore.Client.pdb": "sha256-\/Z59HrdiVzF9y7k58g53zvCLJodP0YSiSdhibVVM8Pk="
+      "OnlineStore.Models.pdb": "sha256-ckk6N2Xs\/JNrXkhskH1jfFR4l0\/lAsBuk9gt4ERgHxc=",
+      "OnlineStore.Client.pdb": "sha256-EmKQL1YH3S\/VzdHAn\/DxfBOCmn0w0ojw4hmJBKzWRo4="
     },
     "runtime": {
       "dotnet.6.0.11.godfthwrgd.js": "sha256-F30V+6jU3jwJYFZoLuwMAqzTiOXu6q7zGgOdjYBofDI=",
