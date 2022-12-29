@@ -80,7 +80,7 @@ namespace OnlineStore.Api.Controllers
         /// Creates product.
         /// </summary>
         /// <param name="productDto">ProductDto</param>
-        [HttpPut]
+        [HttpPost("create")]
         public async Task<ActionResult<ProductDto>> CreateProduct(ProductDto productDto)
         {
             try
@@ -106,7 +106,7 @@ namespace OnlineStore.Api.Controllers
         }
 
         /// <summary>
-        /// Updates product by id.
+        /// Updates product
         /// </summary>
         /// <param name="productUpdateDto">ProductDto</param>
         [HttpPost]
