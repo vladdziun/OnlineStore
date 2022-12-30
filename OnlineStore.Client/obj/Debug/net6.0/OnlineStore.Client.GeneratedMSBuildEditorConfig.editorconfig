@@ -24,6 +24,10 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ291bnRlci5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
+[F:/student/c\#/OnlineStore/OnlineStore.Client/Pages/DisplayError.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRGlzcGxheUVycm9yLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
 [F:/student/c\#/OnlineStore/OnlineStore.Client/Pages/DisplayProducts.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRGlzcGxheVByb2R1Y3RzLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
@@ -32,8 +36,24 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRmV0Y2hEYXRhLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
+[F:/student/c\#/OnlineStore/OnlineStore.Client/Pages/ProductDetails.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJvZHVjdERldGFpbHMucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
 [F:/student/c\#/OnlineStore/OnlineStore.Client/Pages/Products.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJvZHVjdHMucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/student/c\#/OnlineStore/OnlineStore.Client/Pages/SearchProducts.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2VhcmNoUHJvZHVjdHMucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/student/c\#/OnlineStore/OnlineStore.Client/Pages/ShoppingCart.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hvcHBpbmdDYXJ0LnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/student/c\#/OnlineStore/OnlineStore.Client/Shared/CartButton.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXENhcnRCdXR0b24ucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
 [F:/student/c\#/OnlineStore/OnlineStore.Client/Shared/SurveyPrompt.razor]

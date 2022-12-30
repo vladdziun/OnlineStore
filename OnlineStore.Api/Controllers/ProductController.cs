@@ -63,8 +63,8 @@ namespace OnlineStore.Api.Controllers
                 }
                 else
                 {
-
-                    var productDto = product.ConvertToDto();
+                    var productCategory = await _productRepository.GetCategory(product.CategoryId);
+                    var productDto = product.ConvertToDto(productCategory);
 
                     return Ok(productDto);
                 }

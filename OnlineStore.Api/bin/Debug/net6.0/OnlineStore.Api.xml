@@ -23,7 +23,7 @@
         </member>
         <member name="M:OnlineStore.Api.Controllers.ProductController.UpdateProductById(OnlineStore.Models.Dtos.ProductDto)">
             <summary>
-            Updates product by id.
+            Updates product
             </summary>
             <param name="productUpdateDto">ProductDto</param>
         </member>

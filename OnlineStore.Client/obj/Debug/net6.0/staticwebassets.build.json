@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "0XILgNk1hg1mXt9rM7JPgZbBfjHaZ7dwI6vUl14BT94=",
+  "Hash": "1zc0ktf9D064xE9KAIcakGvZoCQICaKhd3vPTQKZgCA=",
   "Source": "OnlineStore.Client",
   "BasePath": "/",
   "Mode": "Root",
@@ -661,6 +661,23 @@
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "C:\\Users\\Vlad-PC\\.nuget\\packages\\microsoft.netcore.app.runtime.mono.browser-wasm\\6.0.11\\runtimes\\browser-wasm\\lib\\net6.0\\netstandard.dll"
+    },
+    {
+      "Identity": "F:\\student\\c#\\OnlineStore\\OnlineStore.Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Newtonsoft.Json.dll",
+      "SourceId": "OnlineStore.Client",
+      "SourceType": "Computed",
+      "ContentRoot": "F:\\student\\c#\\OnlineStore\\OnlineStore.Client\\bin\\Debug\\net6.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/Newtonsoft.Json.dll",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "BlazorWebAssemblyResource",
+      "AssetTraitValue": "runtime",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "C:\\Users\\Vlad-PC\\.nuget\\packages\\newtonsoft.json\\13.0.2\\lib\\net6.0\\Newtonsoft.Json.dll"
     },
     {
       "Identity": "F:\\student\\c#\\OnlineStore\\OnlineStore.Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\OnlineStore.Client.dll",
@@ -6118,6 +6135,23 @@
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "F:\\student\\c#\\OnlineStore\\OnlineStore.Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\System.Net.Security.dll"
+    },
+    {
+      "Identity": "F:\\student\\c#\\OnlineStore\\OnlineStore.Client\\obj\\Debug\\net6.0\\build-gz\\SRy5sRho.gz",
+      "SourceId": "OnlineStore.Client",
+      "SourceType": "Computed",
+      "ContentRoot": "F:\\student\\c#\\OnlineStore\\OnlineStore.Client\\bin\\Debug\\net6.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/Newtonsoft.Json.dll.gz",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "RelatedAsset": "F:\\student\\c#\\OnlineStore\\OnlineStore.Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Newtonsoft.Json.dll",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "F:\\student\\c#\\OnlineStore\\OnlineStore.Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Newtonsoft.Json.dll"
     },
     {
       "Identity": "F:\\student\\c#\\OnlineStore\\OnlineStore.Client\\obj\\Debug\\net6.0\\build-gz\\t6Ux1sia.gz",
