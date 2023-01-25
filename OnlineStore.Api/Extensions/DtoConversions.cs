@@ -55,6 +55,16 @@ namespace OnlineStore.Api.Extensions
 
         }
 
+        public static UserDto ConvertToDto(this User user)
+        {
+            return new UserDto
+            {
+                UserName = user.UserName,
+                PasswordHash= user.PasswordHash,
+            };
+
+        }
+
         public static IEnumerable<CartItemDto> ConvertToDto(this IEnumerable<CartItem> cartItems,
                                                     IEnumerable<Product> products)
         {

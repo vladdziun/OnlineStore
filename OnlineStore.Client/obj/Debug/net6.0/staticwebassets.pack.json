@@ -165,6 +165,10 @@
       "PackagePath": "staticwebassets\\index.html"
     },
     {
+      "Id": "F:\\student\\c#\\OnlineStore\\OnlineStore.Client\\wwwroot\\localStorage.js",
+      "PackagePath": "staticwebassets\\localStorage.js"
+    },
+    {
       "Id": "F:\\student\\c#\\OnlineStore\\OnlineStore.Client\\wwwroot\\sample-data\\weather.json",
       "PackagePath": "staticwebassets\\sample-data\\weather.json"
     },

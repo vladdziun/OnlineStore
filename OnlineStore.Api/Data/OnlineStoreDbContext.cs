@@ -262,7 +262,7 @@ namespace OnlineStore.Api.Data
                 CategoryId = 4
             });
 
-            ////Add users
+            //Add users
             //modelBuilder.Entity<User>().HasData(new User
             //{
             //    Id = 1,

@@ -4,15 +4,21 @@
         <name>OnlineStore.Api</name>
     </assembly>
     <members>
-        <member name="M:OnlineStore.Api.Controllers.LoginRegController.Register(OnlineStore.Api.Entities.User)">
+        <member name="M:OnlineStore.Api.Controllers.LoginRegController.Register(OnlineStore.Models.Dtos.UserDto)">
             <summary>
             Register a user.
+            </summary>
+        </member>
+        <member name="M:OnlineStore.Api.Controllers.LoginRegController.Login(OnlineStore.Models.Dtos.UserDto)">
+            <summary>
+            Logins a user.
             </summary>
         </member>
         <member name="M:OnlineStore.Api.Controllers.ProductController.GetProducts">
             <summary>
             Gets all product items.
             </summary>
+            
         </member>
         <member name="M:OnlineStore.Api.Controllers.ProductController.GetProduct(System.Int32)">
             <summary>

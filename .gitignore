@@ -1,2 +1,5 @@
 \OnlineStore.Api\obj\Debug
+\OnlineStore.Client\obj\Release\net6.0
+\OnlineStore.Client\bin\Debug
+\OnlineStore.Api\obj\Debug\net6.0
 .vs/OnlineStore

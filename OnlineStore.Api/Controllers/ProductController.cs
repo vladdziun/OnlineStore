@@ -3,7 +3,8 @@ using Microsoft.AspNetCore.Mvc;
 using OnlineStore.Api.Repositories.Contracts;
 using OnlineStore.Models.Dtos;
 using OnlineStore.Api.Extensions;
-
+using Microsoft.AspNetCore.Authorization;
+using System.IdentityModel.Tokens.Jwt;
 
 namespace OnlineStore.Api.Controllers
 {
@@ -20,15 +21,18 @@ namespace OnlineStore.Api.Controllers
         /// <summary>
         /// Gets all product items.
         /// </summary>
+        /// 
+        [Authorize]
         [HttpGet]
         public async Task<ActionResult<IEnumerable<ProductDto>>> GetProducts()
         {
             try
             {
+
                 var products = await _productRepository.GetProducts();
                 var productCategories = await _productRepository.GetCategories();
 
-                if( products == null || productCategories == null ) 
+                  if( products == null || productCategories == null ) 
                 {
                     return NotFound();
                 }

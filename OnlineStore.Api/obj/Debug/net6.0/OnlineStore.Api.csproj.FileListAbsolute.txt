@@ -270,3 +270,17 @@ F:\student\c#\OnlineStore\OnlineStore.Api\obj\Debug\net6.0\OnlineStore.Api.xml
 F:\student\c#\OnlineStore\OnlineStore.Api\obj\Debug\net6.0\OnlineStore.Api.pdb
 F:\student\c#\OnlineStore\OnlineStore.Api\obj\Debug\net6.0\OnlineStore.Api.genruntimeconfig.cache
 F:\student\c#\OnlineStore\OnlineStore.Api\obj\Debug\net6.0\ref\OnlineStore.Api.dll
+F:\student\c#\OnlineStore\OnlineStore.Api\bin\Debug\net6.0\OnlineStore.Client.staticwebassets.runtime.json
+F:\student\c#\OnlineStore\OnlineStore.Api\bin\Debug\net6.0\OnlineStore.Api.staticwebassets.runtime.json
+F:\student\c#\OnlineStore\OnlineStore.Api\bin\Debug\net6.0\Microsoft.AspNetCore.Authorization.dll
+F:\student\c#\OnlineStore\OnlineStore.Api\bin\Debug\net6.0\Microsoft.AspNetCore.Components.dll
+F:\student\c#\OnlineStore\OnlineStore.Api\bin\Debug\net6.0\Microsoft.AspNetCore.Components.Forms.dll
+F:\student\c#\OnlineStore\OnlineStore.Api\bin\Debug\net6.0\Microsoft.AspNetCore.Components.Web.dll
+F:\student\c#\OnlineStore\OnlineStore.Api\bin\Debug\net6.0\Microsoft.AspNetCore.Components.WebAssembly.dll
+F:\student\c#\OnlineStore\OnlineStore.Api\bin\Debug\net6.0\Microsoft.AspNetCore.Metadata.dll
+F:\student\c#\OnlineStore\OnlineStore.Api\bin\Debug\net6.0\Microsoft.JSInterop.dll
+F:\student\c#\OnlineStore\OnlineStore.Api\bin\Debug\net6.0\Microsoft.JSInterop.WebAssembly.dll
+F:\student\c#\OnlineStore\OnlineStore.Api\bin\Debug\net6.0\Newtonsoft.Json.dll
+F:\student\c#\OnlineStore\OnlineStore.Api\bin\Debug\net6.0\System.IO.Pipelines.dll
+F:\student\c#\OnlineStore\OnlineStore.Api\bin\Debug\net6.0\OnlineStore.Client.dll
+F:\student\c#\OnlineStore\OnlineStore.Api\bin\Debug\net6.0\OnlineStore.Client.pdb
