@@ -262,19 +262,19 @@ namespace OnlineStore.Api.Data
                 CategoryId = 4
             });
 
-            //Add users
-            modelBuilder.Entity<User>().HasData(new User
-            {
-                Id = 1,
-                UserName = "Bob"
+            ////Add users
+            //modelBuilder.Entity<User>().HasData(new User
+            //{
+            //    Id = 1,
+            //    UserName = "Bob"
 
-            });
-            modelBuilder.Entity<User>().HasData(new User
-            {
-                Id = 2,
-                UserName = "Sarah"
+            //});
+            //modelBuilder.Entity<User>().HasData(new User
+            //{
+            //    Id = 2,
+            //    UserName = "Sarah"
 
-            });
+            //});
 
             //Create Shopping Cart for Users
             modelBuilder.Entity<Cart>().HasData(new Cart

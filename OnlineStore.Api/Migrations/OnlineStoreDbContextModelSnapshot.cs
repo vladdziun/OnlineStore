@@ -384,6 +384,10 @@ namespace OnlineStore.Api.Migrations
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
 
+                    b.Property<string>("PasswordHash")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
                     b.Property<string>("UserName")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
@@ -391,18 +395,6 @@ namespace OnlineStore.Api.Migrations
                     b.HasKey("Id");
 
                     b.ToTable("Users");
-
-                    b.HasData(
-                        new
-                        {
-                            Id = 1,
-                            UserName = "Bob"
-                        },
-                        new
-                        {
-                            Id = 2,
-                            UserName = "Sarah"
-                        });
                 });
 #pragma warning restore 612, 618
         }

@@ -183,9 +183,13 @@ F:\student\c#\OnlineStore\OnlineStore.Api\bin\Debug\net6.0\OnlineStore.Api.deps.
 F:\student\c#\OnlineStore\OnlineStore.Api\bin\Debug\net6.0\OnlineStore.Api.runtimeconfig.json
 F:\student\c#\OnlineStore\OnlineStore.Api\bin\Debug\net6.0\OnlineStore.Api.dll
 F:\student\c#\OnlineStore\OnlineStore.Api\bin\Debug\net6.0\OnlineStore.Api.pdb
+F:\student\c#\OnlineStore\OnlineStore.Api\bin\Debug\net6.0\OnlineStore.Api.xml
 F:\student\c#\OnlineStore\OnlineStore.Api\bin\Debug\net6.0\Azure.Core.dll
 F:\student\c#\OnlineStore\OnlineStore.Api\bin\Debug\net6.0\Azure.Identity.dll
 F:\student\c#\OnlineStore\OnlineStore.Api\bin\Debug\net6.0\Humanizer.dll
+F:\student\c#\OnlineStore\OnlineStore.Api\bin\Debug\net6.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+F:\student\c#\OnlineStore\OnlineStore.Api\bin\Debug\net6.0\Microsoft.AspNetCore.Mvc.Versioning.dll
+F:\student\c#\OnlineStore\OnlineStore.Api\bin\Debug\net6.0\Microsoft.AspNetCore.Mvc.Versioning.ApiExplorer.dll
 F:\student\c#\OnlineStore\OnlineStore.Api\bin\Debug\net6.0\Microsoft.Bcl.AsyncInterfaces.dll
 F:\student\c#\OnlineStore\OnlineStore.Api\bin\Debug\net6.0\Microsoft.Data.SqlClient.dll
 F:\student\c#\OnlineStore\OnlineStore.Api\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll
@@ -262,10 +266,7 @@ F:\student\c#\OnlineStore\OnlineStore.Api\obj\Debug\net6.0\scopedcss\bundle\Onli
 F:\student\c#\OnlineStore\OnlineStore.Api\obj\Debug\net6.0\OnlineStore.Api.csproj.CopyComplete
 F:\student\c#\OnlineStore\OnlineStore.Api\obj\Debug\net6.0\OnlineStore.Api.dll
 F:\student\c#\OnlineStore\OnlineStore.Api\obj\Debug\net6.0\refint\OnlineStore.Api.dll
+F:\student\c#\OnlineStore\OnlineStore.Api\obj\Debug\net6.0\OnlineStore.Api.xml
 F:\student\c#\OnlineStore\OnlineStore.Api\obj\Debug\net6.0\OnlineStore.Api.pdb
 F:\student\c#\OnlineStore\OnlineStore.Api\obj\Debug\net6.0\OnlineStore.Api.genruntimeconfig.cache
 F:\student\c#\OnlineStore\OnlineStore.Api\obj\Debug\net6.0\ref\OnlineStore.Api.dll
-F:\student\c#\OnlineStore\OnlineStore.Api\bin\Debug\net6.0\Microsoft.AspNetCore.Mvc.Versioning.dll
-F:\student\c#\OnlineStore\OnlineStore.Api\bin\Debug\net6.0\Microsoft.AspNetCore.Mvc.Versioning.ApiExplorer.dll
-F:\student\c#\OnlineStore\OnlineStore.Api\bin\Debug\net6.0\OnlineStore.Api.xml
-F:\student\c#\OnlineStore\OnlineStore.Api\obj\Debug\net6.0\OnlineStore.Api.xml

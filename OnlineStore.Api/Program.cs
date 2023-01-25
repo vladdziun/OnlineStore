@@ -1,10 +1,13 @@
+using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.IdentityModel.Tokens;
 using Microsoft.Net.Http.Headers;
 using Microsoft.OpenApi.Models;
 using OnlineStore.Api.Data;
 using OnlineStore.Api.Repositories;
 using OnlineStore.Api.Repositories.Contracts;
 using System.Reflection;
+using System.Text;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -32,8 +35,35 @@ builder.Services.AddDbContextPool<OnlineStoreDbContext>(options =>
     options.UseSqlServer(builder.Configuration.GetConnectionString("OnlineStoreDb"));
 });
 
+//builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
+//    .AddJwtBearer(options =>
+//    {
+//        options.TokenValidationParameters = new TokenValidationParameters
+//        {
+//            ValidateIssuer = true,
+//            ValidateAudience = true,
+//            ValidateLifetime = true,
+//            ValidateIssuerSigningKey = true,
+//            ValidIssuer = "your_issuer",
+//            ValidAudience = "your_audience",
+//            IssuerSigningKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes("your_secret_key")),
+//            ClockSkew = TimeSpan.Zero
+//        };
+//        options.SaveToken = true;
+//    });
+
+//builder.Services.AddSession(options =>
+//{
+//    options.IdleTimeout = TimeSpan.FromMinutes(30);
+//    options.Cookie.HttpOnly = true;
+//    options.Cookie.IsEssential = true;
+//    options.Cookie.SecurePolicy = CookieSecurePolicy.SameAsRequest;
+//});
+
 builder.Services.AddScoped<IProductRepository, ProductRepository>();
 builder.Services.AddScoped<IShoppingCartRepository, ShoppingCartRepository>();
+builder.Services.AddScoped<IUserRepository, UserRepository>();
+
 
 var app = builder.Build();
 
@@ -50,6 +80,9 @@ app.UseCors(policy =>
 
 app.UseHttpsRedirection();
 
+//app.UseSession();
+
+//app.UseAuthentication();
 app.UseAuthorization();
 
 app.MapControllers();
